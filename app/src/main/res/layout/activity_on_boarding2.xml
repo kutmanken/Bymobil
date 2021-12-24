@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".On_Boarding_2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/skip"
+        android:textColor="@color/darker_black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/car_image"
+        android:layout_width="332dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="173dp"
+        android:contentDescription="@string/profil"
+        android:src="@drawable/beep_beep_sightseeing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/on_boarding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/on_boarding_2"
+        android:textColor="@color/darker_black"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_image"/>
+
+    <TextView
+        android:id="@+id/describtion"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/on_boarding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/pages"
+        android:layout_marginTop="20dp"
+        android:layout_width="48dp"
+        android:layout_height="20dp"
+        android:contentDescription="@string/profil"
+        android:src="@drawable/progress_bar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/describtion" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/shape1"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
