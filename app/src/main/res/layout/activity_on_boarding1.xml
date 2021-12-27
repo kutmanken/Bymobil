@@ -24,7 +24,7 @@
         android:id="@+id/imageView"
         android:layout_width="330dp"
         android:layout_height="250dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:src="@drawable/beep_beep_drifting"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
